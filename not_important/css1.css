@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    margin-top: 100px;
+    height: 500px;
+    width: 1000px;
+    tr:nth-child(4) {
+        background-color: rgb(120, 165, 120);
+    }
+}
+th,td{
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    color: rgb(194, 196, 208);
+
+
+}
+th{
+    background-color: rgb(13, 70, 134);
+    
+}
+.first_table{
+    display: flex;
+    justify-content: center;
+
+    align-items : center;
+}
+.first{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items : center;
+}
+body{
+    background-image: linear-gradient(to right,rgb(21, 80, 162),purple);
+}

@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient( to right, rgb(87, 210, 221) 0% , purple 100%);
+    background-repeat: no-repeat;
+    margin-top: 0;
+    margin-bottom: 0;
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    /* width: 100%; */
+}
+
+.main__content{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* margin: 100px 500px ; */
+    /* height: 100vh; */
+    width: 50vw;
+    position: absolute;
+    left: 20%;
+    
+    background-color: white;
+}
+
+.form_div{
+    height: inherit;
+    width: inherit;
+    margin: 0 auto;
+    
+    
+}
+.form_div h1{
+    background-image: linear-gradient(to right, rgb(87, 210, 221) 0% , purple 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin : 20px 0 ;
+}
+
+.grid__two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+
+}
+
+.pm{
+    font-size: 1rem;
+    margin: 20px;
+}
+
+input[type=text] {
+    border: none;
+    height: 30px;
+    width: 100%;
+    border-bottom: 2px solid black;
+  }
+  
+  @media screen and (max-width:1900px) {
+    .main__content{
+        margin: 50px;
+        height: 70vh;
+    }
+
+    body{
+       min-height: 100vh; 
+    }
+    
+  }
+
+  @media screen and (max-width: 850px) {
+    body{
+        min-height: 100vh;
+    }
+    .form_div h1{
+        font-size: 2rem;
+    }
+    .pm{
+        font-size: 1rem;
+        margin: 10px;
+    }
+    
+    .main__content{
+        margin: 50px auto;
+        height: 60vh;
+        width: 70vw;
+    
+    }
+    .grid__two{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .btn_div{
+        margin: 0 auto;
+        height: 50px;
+        width: 90px;
+        
+      }
+      #btn{
+        
+        height: inherit;
+        width: inherit;
+        font-size: 1.5rem;
+        
+      }
+    
+
+  }
+
+  @media screen and (max-width:500px) {
+    body{
+        min-height: 100vh;
+    }
+    .main__content{
+        margin: 10px auto;
+        height: 90vh;
+        width: 70vw;
+    
+    }
+
+    .form_div h1{
+        font-size: 1.5rem;
+    }
+
+    .pm{
+        font-size: 0.8rem;
+        /* margin: 10px; */
+    }
+
+    #btn{
+        
+        height: 10px;
+        width: 20px;
+        font-size: 1rem;
+        
+      }
+
+
+  }
+
+  .btn_div{
+    margin: 60px  auto 0 auto;
+    height: 50px;
+    width: 180px;
+    border: none;
+    outline: none;
+    
+  }
+
+  #btn{
+    background-image: linear-gradient(to right, rgb(87, 210, 221) 0% , purple 100%);
+    color: antiquewhite;
+    height: inherit;
+    width: inherit;
+    font-size: 1.5rem;
+    
+  }
